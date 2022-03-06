@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = 'http://localhost:7000'
+const baseUrl = 'https://byjus-backend-manish.herokuapp.com'
 
 export const getAllUsers = () => {
     return axios.get(baseUrl + '/all-users');
